@@ -63,3 +63,834 @@
         </div>
       </div>
     </nav>
+
+
+
+
+
+
+
+
+<br>
+<br>
+<br>
+
+
+
+    <form id="job-form">
+      <section>
+        <h2 class="form-section-title">Personal Information</h2>
+        <div class="row">
+          <div class="col-4">
+            <label class="form-label">First Name</label>
+            <input name="first-name" id="first-name" type="text" required />
+          </div>
+          <div class="col-4">
+            <label class="form-label">Middle Name</label>
+            <input name="middle-initial" type="text" />
+          </div>
+          <div class="col-4">
+            <label class="form-label">Last Name</label>
+            <input name="last-name" type="text" required />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3">
+            <label class="form-label">Social Security Number</label>
+            <input name="ssn" type="password" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-7">
+            <label class="form-label">Email</label>
+            <input name="email" type="email" required />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-9">
+            <label class="form-label">Street Address</label>
+            <input name="address-1" type="text" placeholder="Address Line 1" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-9">
+            <input name="address-2" type="text" placeholder="Address Line 2" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4">
+            <input name="city" type="text" placeholder="City" />
+          </div>
+          <div class="col-4">
+            <input name="state" type="text" placeholder="State" />
+          </div>
+          <div class="col-4">
+            <input name="zipcode" type="text" placeholder="Zip Code" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3">
+            <label class="form-label">Home Phone</label>
+            <input name="home-phone" type="text" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3">
+            <label class="form-label">Mobile Phone</label>
+            <input name="mobile-phone" type="text" />
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="col-3">
+            <label class="form-label">Are you entitled to work in the United States?</label>
+            <input name="us-work" type="radio" value="yes" required /><span class="radio-selection"> Yes</span> <input name="us-work" type="radio" value="no" /><span class="radio-selection"> No</span>
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="col-3">
+            <label class="form-label">Are you 18 or older?</label>
+            <input name="older-than-18" type="radio" value="yes" required /><span class="radio-selection"> Yes</span> <input name="older-than-18" type="radio" value="no" /><span class="radio-selection"> No</span>
+          </div>
+          <div class="col-3">
+            <label class="form-label">If yes, Date of Birth</label>
+            <input name="date-of-birth" type="date" />
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="col-6">
+            <label class="form-label">Have you been convicted of a misdemeanor or felony, or been incarcerated in connection with a felony, in the past seven years?</label>
+            <input name="convicted" type="radio" value="yes" required /><span class="radio-selection"> Yes</span> <input name="convicted" type="radio" value="no" /><span class="radio-selection"> No</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <label class="form-label">If yes, please explain:</label>
+            <input name="convicted-reason" type="text" />
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="col-3">
+            <label class="form-label">Military Service?</label>
+            <input name="military-service" type="radio" value="yes" required /><span class="radio-selection"> Yes</span> <input name="military-service" type="radio" value="no" /><span class="radio-selection"> No</span>
+          </div>
+          <div class="col-3">
+            <label class="form-label">If yes, which branch?</label>
+            <input name="military-branch" type="text" />
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="col-3">
+            <label class="form-label">Are you a veteran?</label>
+            <input name="veteran" type="radio" value="yes" required /><span class="radio-selection"> Yes</span> <input name="veteran" type="radio" value="no" /><span class="radio-selection"> No</span>
+          </div>
+          <div class="col-3">
+            <label class="form-label">If yes, which war?</label>
+            <input name="war" type="text" />
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="col-4">
+            <label class="form-label">What position are you applying for?</label>
+            <input name="position-application" type="text" required />
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="col-12">
+            <label class="form-label">How did you hear about this position?</label>
+            <input name="job-source" type="text" />
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="col-3">
+            <label class="form-label">Expected Hourly Rate</label>
+            <input name="expected-hourly-rate" type="text" required />
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="col-3">
+            <label class="form-label">Expected Weekly Earnings</label>
+            <input name="expected-weekly-earnings" type="text" required />
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class="col-3">
+            <label class="form-label">Date Available</label>
+            <input name="date-available" type="date" required />
+          </div>
+        </div>
+      </section>
+    
+    
+      <section>
+        <h2 class="form-section-title">Prior Work Experience</h2>
+        <section class="form-field-section">
+          <h3 class="form-section-title">Current or Most Recent</h3>
+        </section>
+        <section class="form-field-section">
+          <div class="row">
+            <div class="col-9">
+              <label class="form-label">Employer</label>
+              <input name="emp1-employer" type="text" />
+            </div>
+          </div>
+        </section>
+    
+        <section class="form-field-section">
+          <div class="row">
+            <div class="col-9">
+              <label class="form-label">Address</label>
+              <input name="emp1-address-1" type="text" placeholder="Address Line 1" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-9">
+              <input name="emp1-address-2" type="text" placeholder="Address Line 2" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <input name="emp1-city" type="text" placeholder="City" />
+            </div>
+            <div class="col-4">
+              <input name="emp1-state" type="text" placeholder="State" />
+            </div>
+            <div class="col-4">
+              <input name="emp1-zip" type="text" placeholder="Zip Code" />
+            </div>
+          </div>
+        </section>
+    
+        <section class="form-field-section">
+          <div class="row">
+            <div class="col-3">
+              <label class="form-label">Phone</label>
+              <input name="emp1-phone" type="text" />
+            </div>
+          </div>
+    
+          <div class="row">
+            <div class="col-5">
+              <label class="form-label">Name of Immediate Supervisor</label>
+              <input name="emp1-supervisor" type="text" />
+            </div>
+          </div>
+        </section>
+        <section class="form-field-section">
+          <div class="row">
+            <div class="col-3">
+              <label class="form-label">Start Date</label>
+              <input name="emp1-start-date" type="date" />
+            </div>
+            <div class="col-3">
+              <label class="form-label">End Date</label>
+              <input name="emp1-end-date" type="date" />
+            </div>
+          </div>
+        </section>
+    
+        <section class="form-field-section">
+          <div class="row">
+            <div class="col-5">
+              <label class="form-label">Position/Job Title</label>
+              <input name="emp1-title" type="text" />
+            </div>
+            <div class="col-3">
+              <label class="form-label">Payrate</label>
+              <input name="emp1-payrate" type="text" />
+            </div>
+          </div>
+        </section>
+    
+        <section class="form-field-section">
+          <div class="row">
+            <div class="col-12">
+              <label class="form-label">Reason for Leaving</label>
+              <input name="emp1-reason-for-leaving" type="text" />
+            </div>
+            <div class="col-12">
+              <label class="form-label">May We Contact?</label>
+              <input name="emp1-can-contact" type="radio" value="yes" /><span class="radio-selection"> Yes</span> <input name="emp1-can-contact" type="radio" value="no" /><span class="radio-selection"> No</span>
+            </div>
+          </div>
+        </section>
+    
+        <section class="form-field-section">
+          <h3 class="form-section-title">Prior</h3>
+        </section>
+    
+    
+        <section class="form-field-section">
+          <div class="row">
+            <div class="col-9">
+              <label class="form-label">Employer</label>
+              <input name="emp2-employer" type="text" />
+            </div>
+          </div>
+        </section>
+    
+        <section class="form-field-section">
+          <div class="row">
+            <div class="col-9">
+              <label class="form-label">Address</label>
+              <input name="emp2-address-1" type="text" placeholder="Address Line 1" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-9">
+              <input name="emp2-address-2" type="text" placeholder="Address Line 2" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <input name="emp2-city" type="text" placeholder="City" />
+            </div>
+            <div class="col-4">
+              <input name="emp2-state" type="text" placeholder="State" />
+            </div>
+            <div class="col-4">
+              <input name="emp2-zip" type="text" placeholder="Zip Code" />
+            </div>
+          </div>
+        </section>
+    
+        <section class="form-field-section">
+          <div class="row">
+            <div class="col-3">
+              <label class="form-label">Phone</label>
+              <input name="emp2-phone" type="text" />
+            </div>
+          </div>
+    
+          <div class="row">
+            <div class="col-5">
+              <label class="form-label">Name of Immediate Supervisor</label>
+              <input name="emp2-supervisor" type="text" />
+            </div>
+          </div>
+        </section>
+        <section class="form-field-section">
+          <div class="row">
+            <div class="col-3">
+              <label class="form-label">Start Date</label>
+              <input name="emp2-start-date" type="date" />
+            </div>
+            <div class="col-3">
+              <label class="form-label">End Date</label>
+              <input name="emp2-end-date" type="date" />
+            </div>
+          </div>
+        </section>
+    
+        <section class="form-field-section">
+          <div class="row">
+            <div class="col-5">
+              <label class="form-label">Position/Job Title</label>
+              <input name="emp2-title" type="text" />
+            </div>
+            <div class="col-3">
+              <label class="form-label">Payrate</label>
+              <input name="emp2-payrate" type="text" />
+            </div>
+          </div>
+        </section>
+    
+        <section class="form-field-section">
+          <div class="row">
+            <div class="col-12">
+              <label class="form-label">Reason for Leaving</label>
+              <input name="emp2-reason-for-leaving" type="text" />
+            </div>
+            <div class="col-12">
+              <label class="form-label">May We Contact?</label>
+              <input name="emp2-can-contact" type="radio" value="yes" /><span class="radio-selection"> Yes</span> <input name="emp2-can-contact" type="radio" value="no" /><span class="radio-selection"> No</span>
+            </div>
+          </div>
+        </section>
+    
+        <section class="form-field-section">
+          <h3 class="form-section-title">Prior</h3>
+        </section>
+    
+    
+        <section class="form-field-section">
+          <div class="row">
+            <div class="col-9">
+              <label class="form-label">Employer</label>
+              <input name="emp3-employer" type="text" />
+            </div>
+          </div>
+        </section>
+    
+        <section class="form-field-section">
+          <div class="row">
+            <div class="col-9">
+              <label class="form-label">Address</label>
+              <input name="emp3-address-1" type="text" placeholder="Address Line 1" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-9">
+              <input name="emp3-address-2" type="text" placeholder="Address Line 2" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <input name="emp3-city" type="text" placeholder="City" />
+            </div>
+            <div class="col-4">
+              <input name="emp3-state" type="text" placeholder="State" />
+            </div>
+            <div class="col-4">
+              <input name="emp3-zip" type="text" placeholder="Zip Code" />
+            </div>
+          </div>
+        </section>
+    
+        <section class="form-field-section">
+          <div class="row">
+            <div class="col-3">
+              <label class="form-label">Phone</label>
+              <input name="emp3-phone" type="text" />
+            </div>
+          </div>
+    
+          <div class="row">
+            <div class="col-5">
+              <label class="form-label">Name of Immediate Supervisor</label>
+              <input name="emp3-supervisor" type="text" />
+            </div>
+          </div>
+        </section>
+        <section class="form-field-section">
+          <div class="row">
+            <div class="col-3">
+              <label class="form-label">Start Date</label>
+              <input name="emp3-start-date" type="date" />
+            </div>
+            <div class="col-3">
+              <label class="form-label">End Date</label>
+              <input name="emp3-end-date" type="date" />
+            </div>
+          </div>
+        </section>
+    
+        <section class="form-field-section">
+          <div class="row">
+            <div class="col-5">
+              <label class="form-label">Position/Job Title</label>
+              <input name="emp3-title" type="text" />
+            </div>
+            <div class="col-3">
+              <label class="form-label">Payrate</label>
+              <input name="emp3-payrate" type="text" />
+            </div>
+          </div>
+        </section>
+    
+        <section class="form-field-section">
+          <div class="row">
+            <div class="col-12">
+              <label class="form-label">Reason for Leaving</label>
+              <input name="emp3-reason-for-leaving" type="text" />
+            </div>
+            <div class="col-12">
+              <label class="form-label">May We Contact?</label>
+              <input name="emp3-can-contact" type="radio" value="yes" /><span class="radio-selection"> Yes</span> <input name="emp3-can-contact" type="radio" value="no" /><span class="radio-selection"> No</span>
+            </div>
+          </div>
+        </section>
+      </section>
+    
+      <section>
+        <h2 class="form-section-title">Education</h2>
+        <section class="form-field-section">
+          <h4 class="form-section-title">High School</h4>
+          <div class="row">
+            <div class="col-4">
+              <label class="form-label">Name</label>
+              <input name="high-school-name" type="text" />
+            </div>
+            <div class="col-4">
+              <label class="form-label">Location</label>
+              <input name="high-school-location" type="text" />
+            </div>
+            <div class="col-4">
+              <label class="form-label">Last Year Completed</label>
+              <select name="high-school-last-year-completed">
+    <option value="freshman">Freshman</option>
+    <option value="sophomore">Sophomore</option>
+    <option value="junior">Junior</option>
+    <option value="senior">Senior</option>
+    </select>
+            </div>
+          </div>
+        </section>
+    
+        <section class="form-field-section">
+          <div class="row">
+            <div class="col-6">
+              <label class="form-label">Degree</label>
+              <input name="high-school-degree" type="text" />
+            </div>
+            <div class="col-6">
+              <label class="form-label">Major or Emphasis</label>
+              <input name="high-school-major" type="text" />
+            </div>
+          </div>
+        </section>
+    
+        <section class="form-field-section">
+          <h4 class="form-section-title">College/University</h4>
+          <div class="row">
+            <div class="col-4">
+              <label class="form-label">Name</label>
+              <input name="college-name" type="text" />
+            </div>
+            <div class="col-4">
+              <label class="form-label">Location</label>
+              <input name="college-location" type="text" />
+            </div>
+            <div class="col-4">
+              <label class="form-label">Last Year Completed</label>
+              <select name="college-last-year-completed">
+    <option value="freshman">Freshman</option>
+    <option value="sophomore">Sophomore</option>
+    <option value="junior">Junior</option>
+    <option value="senior">Senior</option>
+    </select>
+            </div>
+          </div>
+        </section>
+    
+        <section class="form-field-section">
+          <div class="row">
+            <div class="col-6">
+              <label class="form-label">Degree</label>
+              <input name="college-degree" type="text" />
+            </div>
+            <div class="col-6">
+              <label class="form-label">Major or Emphasis</label>
+              <input name="college-major" type="text" />
+            </div>
+          </div>
+        </section>
+    
+        <section class="form-field-section">
+          <h4 class="form-section-title">Trade School</h4>
+          <div class="row">
+            <div class="col-4">
+              <label class="form-label">Name</label>
+              <input name="trade-school-name" type="text" />
+            </div>
+            <div class="col-4">
+              <label class="form-label">Location</label>
+              <input name="trade-school-location" type="text" />
+            </div>
+            <div class="col-4">
+              <label class="form-label">Last Year Completed</label>
+              <input name="trade-school-last-year-completed" type="text" />
+            </div>
+          </div>
+        </section>
+    
+        <section class="form-field-section">
+          <div class="row">
+            <div class="col-6">
+              <label class="form-label">Degree</label>
+              <input name="trade-school-degree" type="text" />
+            </div>
+            <div class="col-6">
+              <label class="form-label">Major or Emphasis</label>
+              <input name="trade-school-major" type="text" />
+            </div>
+          </div>
+        </section>
+    
+        <section class="form-field-section">
+          <h4 class="form-section-title">Other</h4>
+          <div class="row">
+            <div class="col-4">
+              <label class="form-label">Name</label>
+              <input name="other-school-name" type="text" />
+            </div>
+            <div class="col-4">
+              <label class="form-label">Location</label>
+              <input name="other-school-location" type="text" />
+            </div>
+            <div class="col-4">
+              <label class="form-label">Last Year Completed</label>
+              <input name="other-school-last-year-completed" type="text" />
+            </div>
+          </div>
+        </section>
+    
+        <section class="form-field-section">
+          <div class="row">
+            <div class="col-6">
+              <label class="form-label">Degree</label>
+              <input name="other-school-degree" type="text" />
+            </div>
+            <div class="col-6">
+              <label class="form-label">Major or Emphasis</label>
+              <input name="other-school-major" type="text" />
+            </div>
+          </div>
+        </section>
+    
+        <section class="form-field-section">
+          <div class="row">
+            <div class="col-12">
+              <label class="form-label">List any applicable special skills, training or proficiencies.</label>
+              <input name="skills-training" type="text" />
+            </div>
+          </div>
+        </section>
+      </section>
+    
+      <section>
+        <h2 class="form-section-title">Personal References</h2>
+        <section class="form-field-section">
+          <h4 class="form-section-title">Reference 1</h4>
+          <div class="row">
+            <div class="col-6">
+              <label class="form-label">Name</label>
+              <input name="ref1-name" type="text" />
+            </div>
+            <div class="col-6">
+              <label class="form-label">Phone</label>
+              <input name="ref1-phone" type="text" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-9">
+              <label class="form-label">Address</label>
+              <input name="ref1-address-1" type="text" placeholder="Address Line 1" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-9">
+              <input name="ref1-address-2" type="text" placeholder="Address Line 2" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <input name="ref1-city" type="text" placeholder="City" />
+            </div>
+            <div class="col-4">
+              <input name="ref1-state" type="text" placeholder="State" />
+            </div>
+            <div class="col-4">
+              <input name="ref1-zip" type="text" placeholder="Zip Code" />
+            </div>
+          </div>
+        </section>
+    
+        <section class="form-field-section">
+          <h4 class="form-section-title">Reference 2</h4>
+          <div class="row">
+            <div class="col-6">
+              <label class="form-label">Name</label>
+              <input name="ref2-name" type="text" />
+            </div>
+            <div class="col-6">
+              <label class="form-label">Phone</label>
+              <input name="ref2-phone" type="text" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-9">
+              <label class="form-label">Address</label>
+              <input name="ref2-address-1" type="text" placeholder="Address Line 1" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-9">
+              <input name="ref2-address-2" type="text" placeholder="Address Line 2" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <input name="ref2-city" type="text" placeholder="City" />
+            </div>
+            <div class="col-4">
+              <input name="ref2-state" type="text" placeholder="State" />
+            </div>
+            <div class="col-4">
+              <input name="ref2-zip" type="text" placeholder="Zip Code" />
+            </div>
+          </div>
+        </section>
+    
+        <section class="form-field-section">
+          <h4 class="form-section-title">Reference 3</h4>
+          <div class="row">
+            <div class="col-6">
+              <label class="form-label">Name</label>
+              <input name="ref3-name" type="text" />
+            </div>
+            <div class="col-6">
+              <label class="form-label">Phone</label>
+              <input name="ref3-phone" type="text" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-9">
+              <label class="form-label">Address</label>
+              <input name="ref3-address-1" type="text" placeholder="Address Line 1" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-9">
+              <input name="ref3-address-2" type="text" placeholder="Address Line 2" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <input name="ref3-city" type="text" placeholder="City" />
+            </div>
+            <div class="col-4">
+              <input name="ref3-state" type="text" placeholder="State" />
+            </div>
+            <div class="col-4">
+              <input name="ref3-zip" type="text" placeholder="Zip Code" />
+            </div>
+          </div>
+        </section>
+      </section>
+      <input type="submit" value="Submit" />
+    
+    </form>
+    <!--
+    <script type="text/javascript">
+      jQuery(document).ready(function($){
+        $('#job-form').submit(function(e) {
+          e.preventDefault();
+          $.ajax({
+            url: 'https://script.google.com/macros/s/AKfycbz85iNSejOw6cvU6xwOITkHLe61UJv0TYPNls-nsd9aHYKAeZ_x/exec',
+            type: 'post',
+            data: $('#job-form').serialize(),
+            success: function() {
+              alert("Your application has been submitted!");
+            }
+          });
+        });
+      });
+    </script>
+    -->
+
+
+
+
+
+
+
+    
+
+<!-- FOOTER  -->
+
+<footer>
+
+
+  <h3 class="footer-logo">
+
+Spyk Energy
+
+  </h3>
+
+
+
+<div class="socials">
+<a class="social-links" href="https://www.facebook.com/profile.php?id=61552785233766">
+
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+  </svg>
+
+</a>
+
+<a class="social-links" href="https://api.whatsapp.com/send?phone=15793004404">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+    <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+  </svg>
+
+
+</a>
+  
+<a class="social-links" href="https://x.com/DrinkSpyk?t=TTsicbssmuYL1iV6KaCKLg&s=09">
+
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+    <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z"/>
+  </svg>
+</a>
+  
+
+<a class="social-links" href="https://instagram.com/spykenergy?igshid=YWYwM2I1ZDdmOQ==">
+  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+  </svg>
+</a>
+
+</div>
+
+<div class="footer-links">
+  <ul class="ul-footer-links">
+    <h5>Links</h5>
+
+  <a class="footer-linktopage" href="">
+    <li class="footer-li">Home</li>
+  </a> 
+
+  <a class="footer-linktopage" href="">
+    <li class="footer-li">About</li>
+  </a> 
+
+  <a class="footer-linktopage" href="">
+    <li class="footer-li">Gallery</li>
+  </a> 
+
+  
+  <a class="footer-linktopage" href="">
+    <li class="footer-li">Apply</li>
+  </a> 
+
+
+
+    
+  </ul>
+</div>
+
+<div class="footer-links">
+  <ul class="ul-footer-links">
+    <h5>Guides</h5>
+    <li class="footer-li">Visit Page</li>
+    <li class="footer-li">Browse</li>
+    <li class="footer-li">View Gallery</li>
+    <li class="footer-li">Now Apply</li>
+  </ul>
+</div>
+
+
+
+
+     
+   
+
+</footer>
+
+
+
+
+<script src="./apply.js"></script>
+<script src="./bootstrap.min.js"></script>
+
+  </body>
