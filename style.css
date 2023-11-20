@@ -1,0 +1,478 @@
+body {
+  padding: 0;
+}
+
+.navbar-brand {
+  padding: 25px !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+  font-weight: 900;
+  font-size: xx-large;
+  color: red !important;
+}
+
+.bg-light {
+  background-color: #5643c1 !important;
+}
+
+.dropdown-item {
+  color: #5643c1 !important;
+  /* background-color: #5643c1 !important; */
+}
+
+.active-1 {
+  font-weight: bold;
+  color: #5643c1 !important;
+}
+
+.me-2 {
+  color: #5643c1 !important;
+}
+
+.btn-outline-success {
+  color: #5643c1 !important;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #5643c1;
+  cursor: pointer;
+}
+
+.dropdown-toggle {
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* NEXT SESSION  */
+.hero {
+  padding: 10%;
+}
+
+.welcome-message {
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  font-family: cursive;
+}
+
+.welcome-message-2 {
+  color: #5643c1;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+
+.public-opinion{
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+.hr {
+  height: 120%;
+  width: 25%;
+  /* color: rgb(216, 158, 9); */
+  color: red;
+}
+
+.paragraph {
+  color: rgb(84, 83, 83);
+  text-decoration: wavy;
+}
+
+.image-box {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  border-radius: 11px;
+}
+
+.row {
+  padding-top: 8%;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-bottom: 80px;
+}
+
+.tablink {
+  background-color: #555;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 20px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+
+#London {
+  background-color: red;
+}
+#Paris {
+  background-color: green;
+}
+#Tokyo {
+  background-color: blue;
+}
+#Oslo {
+  background-color: orange;
+}
+
+.Available {
+  text-align: center;
+  font-weight: 400;
+  font-size: larger;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* .button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid   #5643c1;
+  border-radius: 8px;
+}
+
+.button1:hover {
+     
+    background-color:   #5643c1;
+  color: white;
+} */
+
+.button {
+  background-color: #5643c1; /* Green */
+  border-radius: 8px;
+  border: none;
+  color: white;
+  padding: 11px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.play {
+  padding-left: 25px;
+  padding-bottom: 3px;
+}
+
+
+.get-more{
+  text-decoration: none;
+}
+/* .card-group{
+    padding-left: 2px;
+    padding-right: 2px;
+  
+  } */
+
+.card {
+  margin: 20px;
+}
+
+.update {
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  margin-top: 10%;
+  padding-bottom: 5%;
+  color: #5643c1;
+}
+
+.new-hero {
+  /* padding-top: 5%; */
+  /* text-align: center; */
+}
+
+.another-session {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.info {
+}
+
+.new-hero-text {
+}
+
+/* <!-- WHAT DO PEOPLE SAY ABOUT US  -->  */
+.what {
+  /* font-family: Georgia, 'Times New Roman', Times, serif; */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* min-height: 3px; */
+  font-size: large;
+  color: black;
+  font-size: larger;
+  padding-bottom: 20px;
+  /* font-weight: bold; */
+}
+
+.what-hr {
+  border-bottom: solid;
+  border-radius: 20px;
+  height: 150%;
+  /* width: 120px; */
+  color: black;
+}
+
+.img {
+
+
+}
+
+
+
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: rgb(10, 9, 9);
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+  color: white;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: red;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: white;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #5643c1;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: red;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: white;}
+
+
+
+
+/* CHAT BOX  */
+
+.open-button {
+  background-color: #5643c1;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 100px;
+  border-radius: 10px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: vertical;
+  min-height: 100px;
+  border-radius: 8px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER  */
+footer {
+  background-color: #f8f9fa;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-logo {
+  margin: 4%;
+  padding-top: 4%;
+  font-size: large;
+  font-weight: bolder;
+  text-align: center;
+  color: red;
+  font-size: xx-large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.socials {
+  padding-top: 4%;
+  padding-right: 7%;
+  /* text-align: center; */
+
+  /* margin: 2px 1px; */
+}
+
+.bi-facebook {
+  color: #5643c1 !important;
+}
+
+.bi-whatsapp {
+  color: red !important;
+}
+
+.bi-twitter-x {
+  color: #5643c1 !important;
+}
+
+.bi-instagram {
+  color: red !important;
+}
+
+.social-links {
+  padding-left: 8px;
+  padding-right: 8px;
+  text-decoration: none;
+}
+
+.ul-footer-links {
+  /* text-align: center; */
+}
+
+.footer-links {
+  text-align: start;
+
+  /* padding-left: 20%; */
+}
+
+.footer-li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-linktopage {
+  text-decoration: none;
+}

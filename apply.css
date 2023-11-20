@@ -1,0 +1,50 @@
+
+body{
+    padding: 2%;
+}
+
+.navbar-brand{
+    padding: 25px !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    font-weight: 900;
+    font-size: xx-large;
+    color: red !important;
+
+}
+
+
+.bg-light{
+background-color: #5643c1 !important;
+}
+
+
+.dropdown-item{
+    color: #5643c1 !important;
+    /* background-color: #5643c1 !important; */
+}
+
+
+.active{
+font-weight: bold;
+    color: black !important;
+}
+
+.me-2{
+    color: #5643c1 !important;
+
+  
+}
+
+.btn-outline-success{
+    color: #5643c1 !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #5643c1;
+    cursor: pointer;
+}
+
+.dropdown-toggle{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
