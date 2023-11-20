@@ -55,3 +55,120 @@ font-weight: bold;
 
 
 
+
+
+
+/* SESSION  */
+
+body{
+    background-color:#FFFF;
+    margin:100px;
+    font-size: 36px;  
+    font-family: 'Patrick Hand SC', cursive;
+    font-weight:400px;
+  }
+  
+  h1{
+    display:flex;
+    justify-content: center;
+    color: #73260A;
+  }
+  
+  img {
+    width:30%;
+    height:auto;
+    margin: 5px;
+    transition:all 1s ease;
+  }
+  
+  img:hover {
+    transform:scale(1.2);
+  }
+  
+  .photogallery {
+    display:flex;
+    align-content: flex-start;
+    flex-flow: row wrap;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 10%;
+  }
+
+
+
+
+
+
+
+  
+  
+/* FOOTER  */
+footer {
+    background-color: #f8f9fa;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-logo {
+    margin: 4%;
+    padding-top: 4%;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+    color: red;
+    font-size: xx-large;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  .socials {
+    padding-top: 4%;
+    padding-right: 7%;
+    /* text-align: center; */
+  
+    /* margin: 2px 1px; */
+  }
+  
+  .bi-facebook {
+    color: #5643c1 !important;
+  }
+  
+  .bi-whatsapp {
+    color: red !important;
+  }
+  
+  .bi-twitter-x {
+    color: #5643c1 !important;
+  }
+  
+  .bi-instagram {
+    color: red !important;
+  }
+  
+  .social-links {
+    padding-left: 8px;
+    padding-right: 8px;
+    text-decoration: none;
+  }
+  
+  .ul-footer-links {
+    /* text-align: center; */
+  }
+  
+  .footer-links {
+    text-align: start;
+  
+    /* padding-left: 20%; */
+  }
+  
+  .footer-li {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-linktopage {
+    text-decoration: none;
+  }
+  
